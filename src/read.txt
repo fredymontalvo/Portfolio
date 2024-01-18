@@ -1,0 +1,31 @@
+<div className={styles.content}>
+          <h2 className={styles.title}>Skills</h2>
+          <ul className={styles.aboutItems}>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("skills/html.png")} alt="html logo" />
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("skills/css.png")} alt="ccs logo" />
+            </li>
+
+            <li className={styles.aboutItem}>
+              <img
+                src={getImageUrl("skills/javascript.png")}
+                alt="javascirpt logo"
+                className={styles.jsLogo}
+              />
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("skills/mongodb.png")} alt="mongodb logo" />
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("skills/node.png")} alt="node logo" />
+            </li>
+            <li className={styles.aboutItem}>
+              <img src={getImageUrl("skills/react.png")} alt="react logo" />
+            </li>
+          </ul>
+        </div>
+
+        xxxxxx
+        
