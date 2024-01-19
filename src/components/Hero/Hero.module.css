@@ -1,14 +1,18 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 49px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  padding: 4rem;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  border-radius: 15px;
+ 
 }
 
 .content {
@@ -16,7 +20,7 @@
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
-  z-index: 1;
+width:60%;
 }
 
 .title {
@@ -38,6 +42,7 @@
 }
 
 .contactBtn {
+  
   text-decoration: none;
   font-size: 20px;
   font-weight: 400;
@@ -80,8 +85,8 @@
 
 .topBlur {
   position: absolute;
-  width: 50%vw;
-  height: 50%vw;
+  width: 30%;
+  height: 30%;
   min-width: 350px;
   min-height: 350px;
   top: -128px;
@@ -94,8 +99,8 @@
 
 .bottomBlur {
   position: absolute;
-  width: 30%vw;
-  height: 30%vw;
+  width: 30%;
+  height: 30%;
   min-width: 350px;
   min-height: 350px;
   bottom: -50px;
