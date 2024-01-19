@@ -54,7 +54,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
   border: #4167ac 10px solid;
   border-radius: 50%;
@@ -94,12 +94,12 @@
 
 .bottomBlur {
   position: absolute;
-  width: 50%vw;
-  height: 50%vw;
+  width: 30%vw;
+  height: 30%vw;
   min-width: 350px;
   min-height: 350px;
-  bottom: -128px;
-  right: 10vw;
+  bottom: -50px;
+  right: 15vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
@@ -113,17 +113,14 @@
   .content {
     align-items: center;
     text-align: center;
-
   }
 
   .title {
     font-size: 48px;
-
   }
 
   .description {
     font-size: 24px;
- 
   }
 
   .contactBtn {
@@ -131,7 +128,7 @@
   }
 
   .heroImg {
-    width: 80%;
+    width: 200px;
     margin-bottom: 20px;
   }
 }

@@ -1,12 +1,10 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
   padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
+  margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
 
@@ -74,6 +72,7 @@
     flex-direction: column;
     align-items: center;
     background-color: transparent;
+    width: 100%;
   }
   .aboutImg {
     display: none;
