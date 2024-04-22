@@ -13,7 +13,7 @@ export const Skills = () => {
               <div className={styles.image}>
                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
               </div>
-              <p>{skill.title}</p>
+              <p className={styles.info}>{skill.title}</p>
             </div>
           );
         })}
