@@ -17,4 +17,6 @@
   6.-Cree el componentey Navbar.js con su respectivo Navbar.css , el cual contiene la barra de navegación de la aplicación. Este componente se puede reutilizar en toda la aplicación para mostrar una barra de navegación consistente en todas las páginas.
 
   7.- En cada uno de los modulos css importamos la variable css que creamos en el archivo vars.css, lo que nos permite utilizar estas variables en los estilos de cada módulo.
+
+  8.- Con la ayuda de Canva he creado mis background para darle un estilo unico a los diferentes componentes. Aqui tuve que jugar un poco en backgroun-image en lo que es background- position con los pixeles y asi puedan concordar tanto en Hero y about section.
   
