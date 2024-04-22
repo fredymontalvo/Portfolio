@@ -1,0 +1,31 @@
+:root {
+  /* HeroSection */
+  --color-bgHero: #faedcd;
+  --color-BgImg: #f48c06;
+  --color-title: #000000;
+  --color-subTitle: #0077b6;
+
+  /* Navbar */
+  --color-bgNavbar: #dcc295;
+  --color-title: #000000;
+
+  --color-text: #fff;
+
+  --color-text-primary: #576cbc;
+
+  --color-dark: #0b2447;
+
+  --color-bgButton: #ffd6a5;
+
+  --color-linksMobile: rgb(250, 236, 236);
+  --color-bgProjects: #cbffa9;
+
+  --color-bg-secondary: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 20%,
+    rgba(9, 9, 121, 1) 100%
+  );
+
+  /*  Fonts */
+  --font-roboto: "Roboto";
+}

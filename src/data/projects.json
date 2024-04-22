@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Photo Portfolio",
+    "description": "A photo portfolio website that showcases my photography work.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "imageSrc": "projects/photoportfolio.png",
+    "demo": "https://fredymontalvo.github.io/Photos_Portofolio/",
+    "source": "https://github.com/fredymontalvo/Photos_Portofolio"
+  },
+
+  {
+    "title": "Bubble Pop",
+    "description": "A game where the player pops diferent sizes bubbles to earn points.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "imageSrc": "projects/bubblepop.png",
+    "source": "https://github.com/fredymontalvo/Graham-Web"
+  },
+
+  {
+    "title": "Graham Academy",
+    "description": "A webpage for a school that showcases the school's programs and courses.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "imageSrc": "projects/grahamacademy.png",
+    "source": "https://github.com/fredymontalvo/Graham-Web"
+  },
+  {
+    "title": "Calculator",
+    "description": "A basis calculator that can perform basic arithmetic operations.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "imageSrc": "projects/calculator.png",
+    "source": "https://github.com/fredymontalvo/Calculator"
+  },
+  {
+    "title": "App 'Appetitos'",
+    "description": "An Application where you can write,save, share and track your recipes .",
+    "skills": ["React Native", "Firebase", "Expo"],
+    "imageSrc": "projects/appetitos.png",
+    "demo": "https://appetitos.onrender.com/"
+  }
+]

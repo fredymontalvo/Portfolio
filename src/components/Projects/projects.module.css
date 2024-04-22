@@ -1,0 +1,109 @@
+@import "../../vars.css";
+
+.mainContainer {
+  background-color: var(--color-bgHero);
+  width: 100vw;
+  background-color: var(--color-bgProjects);
+
+  .title {
+    font-size: 3rem;
+    color: var(--color-title);
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    color: var(--color-BgImg);
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fde9d7;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.8);
+  }
+  .container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  .image {
+    max-width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    outline: 3px solid var(--color-BgImg);
+    outline-offset: 4px;
+  }
+
+  .titleDesc {
+    font-size: 1.5rem;
+    color: var(--color-subTitle);
+    font-weight: 700;
+    text-align: center;
+  }
+  .description {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+  }
+  .skill {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: var(--color-BgImg);
+    padding: 2px 22px;
+    border-radius: 5px;
+  }
+  .links {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .link {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-BgImg);
+    padding: 1px 22px;
+    border: 2px solid var(--color-BgImg);
+    border-radius: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    .container:hover {
+      transform: none;
+      transition: none;
+    }
+  }
+}
