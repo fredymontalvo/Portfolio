@@ -28,6 +28,7 @@
     "description": "A basis calculator that can perform basic arithmetic operations.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "imageSrc": "projects/calculator.png",
+    "demo": "https://calculator-nine-lake.vercel.app/",
     "source": "https://github.com/fredymontalvo/Calculator"
   },
   {
