@@ -7,8 +7,8 @@
   justify-content: center;
   gap: 10rem;
   padding: 2rem;
-  background-image: url("../../assets/hero/test3.png");
-  background-size: 2070px;
+  background-image: url("../../assets/hero/test1.png");
+  background-size: cover;
   background-position: top;
   text-align: center;
   width: 100vw;
@@ -38,7 +38,7 @@
 
   .title {
     font-size: 4.5rem;
-    color: var(--color-text);
+    color: var(--color-subTitle);
     line-height: 1.2;
     font-weight: 600;
   }
@@ -65,6 +65,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 1rem;
+    
     .content {
       width: 100%;
     }
