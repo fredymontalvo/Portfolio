@@ -65,7 +65,7 @@
     right: 0;
     background-image: url(../../assets/Backgroung.png);
     background-size: cover;
-    background-position: left;
+    background-position: center left ;
     width: 100vw;
     height: 100vh;
   }
@@ -75,20 +75,21 @@
   }
 
   .navbarList li {
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
   }
   .navbarList li a {
     text-decoration: none;
-    color: var(--color-linksMobile);
+   color:var(--color-text);
     padding: 0.1rem;
     cursor: pointer;
   }
   .show {
     display: block;
   }
+
 }
